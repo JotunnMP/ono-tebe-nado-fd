@@ -28,7 +28,7 @@
         <img
           class="header__logo-image"
           src="./images/logo-black.svg"
-          alt="Логотип"
+          alt="Логотип проекта"
         />
       </a>
       <address class="address header__address">
@@ -42,16 +42,15 @@
     </header>
     <main>
       <section class="content cover">
-        <img class="fon" src="./images/cover.jpg" />
         <div class="overlay"></div>
-        <h1 class="cover__title aligned-text">
-          <span class="aligned-text_left letter-spacing-extended">Оно</span>
-          <span class="aligned-text_center letter-spacing-extended">Тебе</span>
-          <span class="aligned-text_right letter-spacing-extended">Надо</span>
+        <h1 class="cover__title">
+          <span class="aligned-text aligned-text_left letter-spacing-extended ">Оно</span>
+          <span class="aligned-text aligned-text_center letter-spacing-extended">Тебе</span>
+          <span class="aligned-text aligned-text_right letter-spacing-extended">Надо</span>
         </h1>
         <div class="description">
           <p class="cover__description-text">
-            Аукцион вещей, вкоторые никто не верил
+            Аукцион вещей, в которые никто не верил
           </p>
           <button class="bet-button">Сделать ставку</button>
         </div>
@@ -60,9 +59,8 @@
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a class="card" href="Фильм режиссёра, который бросил киношколу">
-              <img class="card__image" src="./images/card-lot-01.jpg" />
-              <div class="card__overlay"></div>
+            <a class="card card__lot-1" href="Фильм режиссёра, который бросил киношколу">
+              <div class="overlay"></div>
               <h3 class="card__title">
                 Фильм режиссёра, который бросил киношколу
               </h3>
@@ -74,11 +72,10 @@
           </li>
           <li class="lots__card-list-item">
             <a
-              class="card"
+              class="card card__lot-2"
               href="Книга, где описан один скучный день из жизни рекламного агента"
             >
-              <img class="card__image" src="./images/card-lot-02.jpg" />
-              <div class="card__overlay"></div>
+              <div class="overlay"></div>
               <h3 class="card__title">
                 Книга, где описан один скучный день из жизни рекламного агента
               </h3>
@@ -94,11 +91,10 @@
           </li>
           <li class="lots__card-list-item">
             <a
-              class="card"
+              class="card card__lot-3"
               href="Картина, которую повторит даже 5-летний сын маминой подруги"
             >
-              <img class="card__image" src="./images/card-lot-03.jpg" />
-              <div class="card__overlay"></div>
+              <div class="overlay"></div>
               <h3 class="card__title">
                 Картина, которую повторит даже 5-летний сын маминой подруги
               </h3>
@@ -116,6 +112,13 @@
         </div>
       </section>
       <section class="content aboute about__column">
+        <a class="about__logo">
+          <img
+            class="about__logo-image"
+            src="./images/logo-white.svg"
+            alt="Логотип проекта"
+          />
+        </a>
         <h2 class="about__title">Об аукционе</h2>
         <div class="about__text">
           <p class="about__text-p-first">
@@ -134,13 +137,6 @@
             продолжали верить их создатели. И сейчас эти лоты стали культовыми.
           </p>
         </div>
-        <a class="about__logo">
-          <img
-            class="about__logo-image"
-            src="./images/logo-white.svg"
-            alt="Логотип"
-          />
-        </a>
       </section>
     </main>
     <footer class="content footer">
@@ -172,6 +168,7 @@
               <img
                 class="footer__social-icon"  
                 src="./images/yt.svg"
+                alt="Youtube"
             >
             </a>
           </li>
@@ -180,6 +177,7 @@
               <img
                 class="footer__social-icon"  
                 src="./images/vk.svg"
+                alt="VKontakte"
             >
             </a>
           </li>
@@ -188,6 +186,7 @@
               <img
                 class="footer__social-icon"  
                 src="./images/pinterest.svg"
+                alt="Pinterest"
             >
             </a>
           </li>
