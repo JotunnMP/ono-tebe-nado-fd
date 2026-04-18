@@ -57,7 +57,7 @@
   justify-self: end;
   flex-direction: column;
   gap: 5px;
-  margin-right: 37px; 
+  margin-right: 37px;
 }
 
 .cover {
@@ -76,7 +76,7 @@
 
 .overlay {
   position: absolute;
-  inset: 0; 
+  inset: 0;
   background: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
@@ -108,7 +108,6 @@
 
 .aligned-text_right {
   text-align: right;
-
 }
 
 .letter-spacing-extended {
@@ -281,7 +280,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-}  
+}
 
 .footer {
   display: grid;
