@@ -177,7 +177,6 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  
   justify-content: space-between;
   text-decoration: none;
   width: 100%;
@@ -209,7 +208,6 @@
   text-decoration: underline;
   z-index: 2;
   padding: 50px 40px 0 40px;
-  
 }
 
 .card__text {
